@@ -1,0 +1,11 @@
+{
+  "domain": "generic_bt",
+  "name": "Generic Bluetooth",
+  "codeowners": ["@fuatakgun"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "iot_class": "local_push",
+  "integration_type": "hub",
+  "version": "1.0.0",
+  "documentation": "https://github.com/fuatakgun/generic_bt"
+}

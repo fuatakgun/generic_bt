@@ -1,0 +1,34 @@
+write_gatt:
+  name: Write Data into Target UUID
+  description: Write Data into Target UUID
+  target:
+    entity:
+      domain: binary_sensor
+      integration: generic_bt
+  fields:
+    target_uuid:
+      name: Target UUID
+      description: Target UUID
+      required: true
+      selector:
+        text:
+    data:
+      name: Data
+      description: Data
+      required: true
+      selector:
+        text:
+read_gatt:
+  name: Read Data from Target UUID
+  description: Read Data from Target UUID
+  target:
+    entity:
+      domain: binary_sensor
+      integration: generic_bt
+  fields:
+    target_uuid:
+      name: Target UUID
+      description: Target UUID
+      required: true
+      selector:
+        text:
